@@ -46,3 +46,16 @@ document.querySelectorAll("section").forEach(section => {
     section.classList.add("hidden");
     observer.observe(section);
 });
+
+// ---------- Fade-in for all pages --------------------
+/*window.addEventListener("pageshow", () => {
+    document.querySelectorAll("section").forEach(sec => {
+        sec.classList.remove("show");
+        sec.classList.add("hidden");
+
+        // small delay to allow DOM to settle
+        setTimeout(() => {
+            observer.observe(sec);
+        }, 50);
+    });
+});*/
