@@ -88,3 +88,40 @@ footer {
     color: white;
     margin-top: 2rem;
 }
+
+/* Profile image styling */
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;     /* Makes image fully round */
+    object-fit: cover;      /* Prevents stretching */
+    margin-right: 10px;     /* Space between image and name */
+}
+
+/* Make image + name align center */
+.logo {
+    display: flex;
+    align-items: center;    /* Vertical centering */
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Fade-in animation */
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Active navigation highlight */
+nav a.active {
+    color: #0f172a;
+    font-weight: 700;
+    border-bottom: 2px solid #0f172a;
+}
+
