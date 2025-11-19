@@ -11,6 +11,12 @@ h1, h2, h3 {
     color: #0f172a;
 }
 
+h4 {
+    color: #1e1c3b;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
 /* NAVIGATION */
 .nav {
     display: flex;
@@ -133,3 +139,46 @@ nav a.active {
     border-bottom: 2px solid #0f172a;
 }
 
+/* Namecard-style About section */
+.about-card {
+    max-width: 750px;
+    margin: 3rem auto;               /* centers the card */
+    background: #f3edf7;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-photo {
+    width: 280px;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+}
+
+.about-text {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.05rem;
+    color: #1e293b;
+}
+
+.about-text p {
+    margin-bottom: 1.2rem;
+}
+
+/* Back link */
+.back-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0ea5e9;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
