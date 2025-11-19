@@ -71,6 +71,13 @@ section {
     margin: auto;
 }
 
+/* SUBPAGE */
+.subpage {
+    padding: 2rem 20rem;
+    text-align: center;
+    background: #e1ebfc;
+}
+
 /* PROJECT CARDS */
 .projectTF {
     border: 1px solid #e2e8f0;
@@ -88,11 +95,11 @@ section {
     background: white;
 }
 
-.project a {
+/*.project a {
     text-decoration: none;
     color: #0ea5e9;
     font-weight: 600;
-}
+}*/
 
 /* FOOTER */
 footer {
